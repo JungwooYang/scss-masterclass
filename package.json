@@ -1,0 +1,32 @@
+{
+  "name": "scss-masterclass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JungwooYang/scss-masterclass.git"
+  },
+  "author": "Jungwoo Yang <euistgh@gmail.com>",
+  "license": "MIT",
+  "description": "scss gulp",
+  "scripts": {
+    "dev": "gulp dev"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/preset-env": "^7.16.8",
+    "@babel/register": "^7.16.9",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.48.0"
+  },
+  "browserslist": {
+    "browsers": [
+      "last 2 versions"
+    ]
+  }
+}
